@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="8" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-29T12:28:01 IST" name="Suite" finished-at="2023-11-29T12:28:08 IST" duration-ms="7664">
+    <groups>
+    </groups>
+    <test started-at="2023-11-29T12:28:01 IST" name="Test" finished-at="2023-11-29T12:28:08 IST" duration-ms="7664">
+      <class name="ctbautomation.cartobikeRegistration">
+        <test-method signature="Test12()[pri:0, instance:ctbautomation.cartobikeRegistration@130d63be]" started-at="2023-11-29T12:28:01 IST" name="Test12" finished-at="2023-11-29T12:28:08 IST" duration-ms="6971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test12 -->
+        <test-method signature="Test13()[pri:0, instance:ctbautomation.cartobikeRegistration@130d63be]" started-at="2023-11-29T12:28:08 IST" name="Test13" finished-at="2023-11-29T12:28:08 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test13 -->
+      </class> <!-- ctbautomation.cartobikeRegistration -->
+      <class name="ctbautomation.ctbtest">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:ctbautomation.ctbtest@1a482e36]" started-at="2023-11-29T12:27:42 IST" name="StartBrowser" finished-at="2023-11-29T12:28:01 IST" duration-ms="18294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:ctbautomation.ctbtest@1a482e36]" started-at="2023-11-29T12:28:08 IST" name="CloseBrowser" finished-at="2023-11-29T12:28:09 IST" duration-ms="1043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- ctbautomation.ctbtest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
