@@ -65,8 +65,8 @@ public class ctbtest {
    * */
   public static String capture(WebDriver driver) throws IOException {
     File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-    String destination = "C:\\Users\\Lz-6\\eclipse-workspace\\cartobike_test\\test-output\\extendReport\\screenshots\\" + System.currentTimeMillis() +
-    	      ".png";
+    //String destination = "C:\\Users\\Lz-6\\eclipse-workspace\\cartobike_test\\test-output\\extendReport\\screenshots\\" + System.currentTimeMillis() + ".png";
+    String destination = "C:\\Users\\Asus\\Ctb\\test-output\\extendReport\\screenshots" + System.currentTimeMillis() + ".png";
     File Dest = new File(destination);
     String errflpath = Dest.getAbsolutePath();
     FileHandler.copy(scrFile, Dest);
@@ -103,7 +103,8 @@ public class ctbtest {
    * create static method to avoid redendence when using same method in different class
    * */
   public void InitializeExtentReport() {   
-    report = new ExtentReports("C:\\\\Users\\\\Lz-6\\\\eclipse-workspace\\\\cartobike_test\\\\test-output\\\\extendReport\\\\CartoBikeBugReport.html", true);
+    //report = new ExtentReports("C:\\\\Users\\\\Lz-6\\\\eclipse-workspace\\\\cartobike_test\\\\test-output\\\\extendReport\\\\CartoBikeBugReport.html", true);
+    report = new ExtentReports("C:\\\\Users\\\\Asus\\\\Ctb\\\\test-output\\\\extendReportreportsCartoBikeBugReport.html", true);
     report.addSystemInfo("Environment", "Google Chrome Version 119.0.6045.160 (Official Build) (64-bit)");
     report.addSystemInfo("OS", "Windows 10");
     report.addSystemInfo("Reporter", "Abhishek Kalotra");
@@ -124,7 +125,8 @@ public class ctbtest {
    * */
   public void InitializeChromeDriver() {
     System.setProperty("webdriver.chrome.silentOutput", "true");
-    System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Required Software\\chromedriver-win64\\chromedriver.exe");   
+    //System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Required Software\\chromedriver-win64\\chromedriver.exe");   
+    System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\Chromedriver\\chromedriver-win64\\chromedriver.exe");   
     ChromeOptions options = new ChromeOptions();
     options.addArguments("--remote-allow-origins=*");
     driver = new ChromeDriver(options);
