@@ -100,11 +100,11 @@ public class ctbtest {
    * 
    * Use addSysteminfo to add necessary info in the extent report.
    * 
-   * create static method to avoid redendence when using same method in different class
+   * create static method to avoid redundancy when using same method in different class
    * */
   public void InitializeExtentReport() {   
     //report = new ExtentReports("C:\\\\Users\\\\Lz-6\\\\eclipse-workspace\\\\cartobike_test\\\\test-output\\\\extendReport\\\\CartoBikeBugReport.html", true);
-    report = new ExtentReports("C:\\\\Users\\\\Asus\\\\Ctb\\\\test-output\\\\extendReportreportsCartoBikeBugReport.html", true);
+    report = new ExtentReports("C:\\\\Users\\\\Asus\\\\Ctb\\\\test-output\\\\extendReportreports\\\\CartoBikeBugReport.html", true);
     report.addSystemInfo("Environment", "Google Chrome Version 119.0.6045.160 (Official Build) (64-bit)");
     report.addSystemInfo("OS", "Windows 10");
     report.addSystemInfo("Reporter", "Abhishek Kalotra");
